@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 480px) {
+    #menu-ligadoi, #icone-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    /* barra de menus para pcs */
+    #menu {
+        display: block;
+    }
+
+    #menu ul {
+        text-align: left;
+        background-color: transparent;
+    }
+    
+    #menu li {
+        display: inline-block;
+        background-color: #444;
+        padding: 10px;
+    }
+
+    main {
+        width: 70%;
+    }
+    
+}
+
+/* Configuracoes para pc */
+@media screen and (min-width: 768px) {
+
+    /* barra de menus para pcs */
+    #menu {
+        display: block;
+    }
+
+    #menu ul {
+        text-align: left;
+        background-color: transparent;
+    }
+    
+    #menu li {
+        display: inline-block;
+        background-color: #444;
+        padding: 10px;
+    }
+
+    main {
+        width: 58vw;
+    }
+}
